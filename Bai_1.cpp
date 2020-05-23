@@ -100,6 +100,7 @@ void handleWithX(int a[], int &n, int x){
 	for(int i = 0; i < n; i++){
 		if(a[i] == x){
 			deleteX(a,n,i);
+			i--;
 		}
 	}
 	cout << endl << "Mang sau khi xoa:\n";
